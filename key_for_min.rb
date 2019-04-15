@@ -7,9 +7,8 @@ def key_for_min_value(name_hash)
   lowest_key = 0 
   lowest_value = 0 
   name_hash.each do |key, value|
+    binding.pry
     value.each do |number|
-      binding.pry
-    
     end
   end
 end
